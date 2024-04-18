@@ -10,8 +10,10 @@
 - [ ] Update Call
 - [ ] Update Program
 - [ ] Update Submission
+- [ ] Proofreading and Removing Anything PPSN related
 - [x] Update Front Page
-- [x] Update About
+- [x] Update Imprint
+- [ ] Update About -> add Workshop Organizers (Paul, ...)
 
 # Local Development
 

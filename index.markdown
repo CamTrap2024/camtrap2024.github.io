@@ -45,9 +45,9 @@ description: Homepage of the Camera Traps, AI, and Ecology Workshop 2024
                 </p>
             </div>
             <div class="col-lg-6 col-md-12">
-                <h2>Where?</h2>
+                <h2>Online and On-site</h2>
                 <p class="text-justify">
-                    The venue is the Campus of the <b>University of Applied Sciences Upper Austria</b>, located in the <b>Hagenberg, Austria</b>.
+                    The on-site venue is the Campus of the <b>University of Applied Sciences Upper Austria</b>, located in <a href="{{ site.baseurl }}/venue"><b>Hagenberg, Austria</b></a>.
                 </p>
                 <p>
                     <address>
@@ -58,7 +58,7 @@ description: Homepage of the Camera Traps, AI, and Ecology Workshop 2024
                     </address>
                 </p>
                 <p>
-                    Further details regarding venue, travel, accomodation and tourism: <a href="{{ site.baseurl }}/venue">Venue</a>.
+                    Further details about the <b>online access</b> will be announced shortly before the workshop!
                 </p>
             </div>
         </div>
@@ -67,8 +67,7 @@ description: Homepage of the Camera Traps, AI, and Ecology Workshop 2024
 
 <section class="background-light pad" id="contact">
    <div class="container text-justify">
-      <h2>Questions? &nbsp;Contact Us!</h2>
-      <div class="row"><div class="col-sm-12">Write us at <a style="text-decoration:underline" href="mailto:camtraps2024@fh-ooe.at">camtraps2024@fh-ooe.at</a> to get a fast response.<br/><br/></div></div>
+      <h2>Organization Team</h2>
       <div class="row contact-info">
          {% for group in site.data.people.groups %}
          {% if group.short == "fhooe" %}
@@ -76,7 +75,8 @@ description: Homepage of the Camera Traps, AI, and Ecology Workshop 2024
          {% if member.contact %}
          <div class="col-lg-4 col-md-12">
             <h4>{{member.prefix}} {{member.firstname}} {{member.lastname}} {{member.postfix}}</h4>
-            <table class="contact-table">
+            <p>{{member.phone}}</p>
+            <!--<table class="contact-table">
                <body>
                   <tr>
                      <td>Phone:</td>
@@ -89,14 +89,14 @@ description: Homepage of the Camera Traps, AI, and Ecology Workshop 2024
                      </td>
                   </tr>
                </body>
-            </table>
+            </table> -->
          </div>
          {% endif %}
          {% endfor%}
          {% endif %}
          {% endfor %}
       </div>
-
+      <div class="row"><div class="col-sm-12">Write us at <a style="text-decoration:underline" href="mailto:camtraps2024@fh-ooe.at">camtraps2024@fh-ooe.at</a>.<br/><br/></div></div>
    </div>
 </section>
 
