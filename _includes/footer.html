@@ -1,0 +1,33 @@
+<footer id="main-footer">
+   <div class="container">
+      <div class="row justify-content-md-center">
+         {% for it in site.data.nav.Information %}
+         {% if it.hardlink %}
+         {% capture baseurl %}/{% endcapture %}
+         {% else %}
+         {% capture baseurl %}{% endcapture %}
+         {% endif %}
+         <div class="col-md-2"><a href="{{baseurl}}{{it.link}}">{{it.name["en"]}}</a></div>
+         {% endfor %}
+      </div>
+   </div>
+</footer>
+<footer id="disclaimer">
+   <div class="container">
+      <div class="row justify-content-md-center">
+         <div class="col-md-12">
+            &copy; {{ 'now' | date: "%Y" }} University of Applied Sciences Upper Austria<div class="rowbreak"></div>The workshop is organized and supported by
+         </div>
+         <div class="row justify-content-md-center">
+            {% assign fhooe = site.data.nav.Partners | where: "item", "fhooe" | first %}
+            {% assign swph = site.data.nav.Partners | where: "item", "swph" | first %}
+            <div class="col-md-2"><a href="{{fhooe.link}}" alt="{{fhooe.name.en}}" target="_blank">
+                  <div id="logo-uasua" class="footer-logo"></div>
+               </a></div>
+            <div class="col-md-2"><a href="{{swph.link}}" alt="{{swph.name.en}}" target="_blank">
+                  <div id="logo-swph" class="footer-logo"></div>
+               </a></div>
+
+         </div>
+      </div>
+</footer>

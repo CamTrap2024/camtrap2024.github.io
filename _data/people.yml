@@ -1,0 +1,93 @@
+groups:
+  - short: fhooe
+    name: University of Applied Sciences - Upper Austria
+    address:
+      street: Softwarepark 11
+      postal: 4232
+      city: Hagenberg im Mühlkreis
+      provinz: Upper Austria
+      country: Austria
+    members:
+      - nick: dschedl
+        firstname: David
+        lastname: Schedl
+        prefix: FH-Prof. Dr.
+        postfix:
+        position:
+        phone: +43 50804 22127
+        mail: david.schedl@fh-ooe.at
+        contact: true
+      - nick: cpraschl
+        firstname: Christoph
+        lastname: Praschl
+        prefix: FH-Assistant Prof.
+        postfix:
+        position:
+        phone: +43 50804 27150
+        mail: christoph.praschl@fh-ooe.at
+        contact: true
+
+team:
+  - name: David Schedl
+    url: https://pure.fh-ooe.at/de/persons/david-christian-schedl
+    affiliation: University of Applied Sciences Upper Austria
+    affiliationurl: https://www.fh-ooe.at/en/
+    country: Austria
+  - name: Christoph Praschl
+    url: https://pure.fh-ooe.at/de/persons/christoph-praschl
+    affiliation: University of Applied Sciences Upper Austria
+    affiliationurl: https://www.fh-ooe.at/en/
+    country: Austria
+  - name: Dimitri Korsch
+    url: https://inf-cv.uni-jena.de/korsch
+    affiliation: University of Jena
+    affiliationurl: https://www.uni-jena.de
+    country: Germany
+
+  - name: Otto Brookes
+    url: http://www.bristol.ac.uk/cdt/interactive-ai/current-students/2020-cohort/brookes
+    affiliation: University of Bristol
+    affiliationurl: http://www.bristol.ac.uk/
+    country: United Kingdom
+
+  - name: Tilo Burghardt
+    url: https://tiloburghardt.github.io/
+    affiliation: University of Bristol
+    affiliationurl: http://www.bristol.ac.uk/
+    country: United Kingdom
+
+  - name: Paul Bodesheim
+    url: https://inf-cv.uni-jena.de/bodesheim
+    affiliation: University of Jena
+    affiliationurl: https://www.uni-jena.de
+    country: Germany
+
+  - name: Joachim Denzler
+    url: https://inf-cv.uni-jena.de/denzler
+    affiliation: University of Jena
+    affiliationurl: https://www.uni-jena.de
+    country: Germany
+
+  - name: Majid Mirmehdi
+    url: http://people.cs.bris.ac.uk/~majid/
+    affiliation: University of Bristol
+    affiliationurl: http://www.bristol.ac.uk/
+    country: United Kingdom
+
+  - name: Marco Heurich
+    url: https://www.wildlife.uni-freiburg.de/en/Staff/marco%20heurich
+    affiliation: University of Freiburg
+    affiliationurl: https://www.wildlife.uni-freiburg.de/en/
+    country: Germany
+
+  - name: Alexander Mathis
+    url: https://www.mathislab.org/
+    affiliation: EPFL
+    affiliationurl: https://www.epfl.ch/schools/sv/bmi/
+    country: Switzerland
+
+  - name: Hjalmar S. Kühl
+    url: https://www.eva.mpg.de/primat/staff/hjalmar-kuehl/
+    affiliation: iDIV / MPI
+    affiliationurl: https://www.idiv.de / https://www.eva.mpg.de/index/
+    country: Germany

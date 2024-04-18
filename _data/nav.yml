@@ -1,0 +1,57 @@
+MainNav:
+  - item: calls
+    name:
+      de: Call
+      en: Call
+    link: "/calls/"
+    hardlink: false
+  - item: program
+    name:
+      de: Program
+      en: Program
+    link: "/program"
+    hardlink: false
+  - item: venue
+    name:
+      de: Venue
+      en: Venue
+    link: "/venue"
+    hardlink: false
+  - item: team
+    name:
+      de: Team
+      en: Team
+    link: "/team"
+    hardlink: false
+Information:
+  - item: imprint
+    name:
+      de: "Impressum"
+      en: "Imprint"
+    link: "/imprint/"
+    hardlink: false
+  - item: dataprotect
+    name:
+      de: Datenschutz
+      en: Data Protection
+    link: "/dataprotection/"
+    hardlink: false
+Partners:
+  - item: fhooe
+    name:
+      de: Fachhochschule Oberösterreich
+      en: University of Applied Sciences Upper Austria
+    link: "https://www.fh-ooe.at/en/"
+    hardlink: true
+  - item: swph
+    name:
+      de: Softwarepark Hagenberg
+      en: Softwarepark Hagenberg
+    link: "https://www.softwarepark-hagenberg.com/en/"
+    hardlink: true
+  - item: looe
+    name:
+      de: Land Oberösterreich
+      en: State of Upper Austria
+    link: "https://www.upperaustria.at/"
+    hardlink: true

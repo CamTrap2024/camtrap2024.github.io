@@ -1,0 +1,182 @@
+
+nav#main-nav {   
+   background-color: transparent !important;
+   border-bottom: 5px solid transparent;
+   height:90px !important;
+   
+   .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+   }
+
+   a.nav-link {
+      font-family: $base-font-family;
+      font-weight: 500;
+      color:#fff;
+      padding: 1rem 0px;
+      margin: 0px 1rem;
+      opacity: 0.85;
+      position: relative;
+      transition: opacity 200ms ease-in;
+   }
+
+   .nav-link:hover{
+      opacity: 1;
+   }
+
+   .nav-link::before {
+      transition: 200ms;
+      height: 5px;
+      content: "";
+      position: absolute;
+      background-color: #fff;
+      width: 0%;
+      bottom: 10px;
+    }
+
+    .nav-link:hover::before {
+      width: 100%;
+    }
+
+    .navbar-brand{
+      height:100%;
+      width:100%;
+      padding: 10px;
+      // padding:10px 0 0 10px;
+      display: block;;
+    }
+
+    .brand-container {
+      float:left;
+      margin: 0;
+      padding: 0;
+    }
+
+    .pull-right {
+      float:right !important;
+    }
+
+   #logo{
+      position: relative;
+      // bottom: 5px;
+      // left: 15px;      
+      display:inline-block;
+      // height:60px;
+    }
+
+    .nav-home-brand #logo g,
+    .nav-home-brand #logo polygon,
+    .nav-home-brand #logo path {
+      fill: $brand-text-light;
+      opacity: 0.85;
+      transition: opacity 200ms ease-in;  
+    }
+
+    .nav-home-brand loo>path {
+      opacity: 0.75;
+    }
+
+    .nav-page-brand #logo g,
+    .nav-page-brand #logo polygon,
+    .nav-page-brand #logo path {
+      fill: $brand-primary;      
+      transition: fill 200ms ease-in;
+    }
+
+    .nav-home-brand:hover {
+      #logo g,
+      #logo polygon,
+      #logo path {
+      //   fill: $brand-secondary !important;
+        opacity: 1.0; 
+      }
+     }
+
+   .nav-page-brand:hover {
+      #logo g,
+      #logo polygon,
+      #logo path {
+        fill: $brand-dark-grey !important;        
+      }
+     }
+
+     .navbar-toggler {
+      border-radius: 0;
+      border: transparent;
+      background-color: transparent;
+      // color: $brand-text-light !important;
+     }
+
+     .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+     }
+
+     .navbar-toggler:focus {
+      box-shadow: none;
+      // background-color: $brand-primary;
+     }
+
+     .navbar-toggler.collapsed {
+      box-shadow: none;
+      background-color: transparent;
+     }
+
+     @media (max-width: 767px) {
+      .navbar-collapse {
+        background-color: $brand-primary;
+      }
+    }
+}
+
+nav#main-nav.navbar-top.scrolled,
+nav#main-nav.navbar-top.nav-page {
+  scroll-margin-top: 100px!important;
+   background-color: #fff !important;
+   transition: background-color 200ms linear;   
+
+   .nav-link {
+      color:$brand-primary !important;
+      opacity: 1;
+   }
+
+   .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2833, 37, 41, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+   }
+
+   .nav-link::before {
+      background-color: $brand-primary !important;      
+    }
+
+    #logo g,
+    #logo polygon,
+    #logo path {
+      opacity: 1.0;
+      fill: $brand-primary !important; 
+      transition: fill 200ms ease-in;
+    }
+
+    .brand-container .navbar-brand:hover {
+      #logo g,
+      #logo polygon,
+      #logo path {
+         fill: $brand-dark-grey !important;         
+       }
+     }
+
+     @media (max-width: 767px) {
+      .navbar-collapse {
+        background-color: $brand-light;
+      }
+    }
+ }
+
+ nav#main-nav.navbar-top.scrolled {
+  border-bottom: 5px solid $brand-primary;
+ }
+
+ 
+
+
+
+ 
+

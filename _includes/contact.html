@@ -1,0 +1,37 @@
+<section class="background-light pad" id="contact">
+   <div class="container text-justify">
+      <h2>Contact</h2>
+      <div class="row contact-info">
+         {% for group in site.data.people.groups %}
+         {% if group.short == "fhooe" %}
+         {% for member in group.members %}
+         {% if member.contact %}
+         <div class="col-lg-4 col-md-12">
+            <h4>{{member.prefix}} {{member.firstname}} {{member.lastname}} {{member.postfix}}</h4>
+            <table class="contact-table">
+
+               <body>
+                  <tr>
+                     <td>Role:</td>
+                     <td>{{member.position}}</td>
+                  </tr>
+                  <tr>
+                     <td>Phone:</td>
+                     <td>{{member.phone}}</td>
+                  </tr>
+                  <tr>
+                     <td>Mail:</td>
+                     <td>
+                        <a href="mailto:{{member.mail}}">{{member.mail}}</a>
+                     </td>
+                  </tr>
+               </body>
+            </table>
+         </div>
+         {% endif %}
+         {% endfor%}
+         {% endif %}
+         {% endfor %}
+      </div>
+   </div>
+</section>
