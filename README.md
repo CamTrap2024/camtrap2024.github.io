@@ -14,6 +14,7 @@
 - [x] Update Front Page
 - [x] Update Imprint
 - [ ] Update About -> add Workshop Organizers (Paul, ...)
+- [ ] Remove Google Analytics
 
 # Local Development
 

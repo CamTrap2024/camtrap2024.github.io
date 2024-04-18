@@ -11,23 +11,17 @@ MainNav:
       en: Program
     link: "/program"
     hardlink: false
-  - item: submission
-    name:
-      de: Submission
-      en: Submission
-    link: "/submission"
-    hardlink: false
   - item: venue
     name:
       de: Venue
       en: Venue
     link: "/venue"
     hardlink: false
-  - item: about
+  - item: team
     name:
-      de: About
-      en: About
-    link: "/about"
+      de: Team
+      en: Team
+    link: "/team"
     hardlink: false
 Information:
   - item: imprint

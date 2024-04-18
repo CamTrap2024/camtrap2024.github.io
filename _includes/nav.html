@@ -23,7 +23,7 @@
 <nav id="main-nav" class="navbar fixed-top navbar-expand-md navbar-top my-nav nav-page">
 {% endif %}
     <div class="container-fluid">
-        <div class="brand-container">                        
+        <div class="brand-container" id="logo">                        
             {% if ishome %}
             <a href="/" class="navbar-brand nav-home-brand">{% include svg/ppsn2024-logo.svg %}</a>
             {% else %}
@@ -42,11 +42,7 @@
                 {% else %}
                     {% capture baseurl %}{% endcapture %}
                 {% endif %}
-                {% if ishome and forloop.first %}
-                    <a href="{{baseurl}}/#{{nav_item.item}}" class="nav-item nav-link">{{nav_item.name["en"]}}</a>
-                {% else %}
-                    <a href="{{baseurl}}{{nav_item.link}}" class="nav-item nav-link">{{nav_item.name["en"]}}</a>
-                {% endif %}    
+                <a href="{{baseurl}}{{nav_item.link}}" class="nav-item nav-link">{{nav_item.name["en"]}}</a>
 
                 <!-- {% if forloop.first %}
                 <a href="{{baseurl}}{{nav_item.link}}" class="active nav-item nav-link">{{nav_item.name["en"]}}</a>

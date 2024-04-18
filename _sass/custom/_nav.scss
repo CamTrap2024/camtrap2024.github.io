@@ -56,46 +56,46 @@ nav#main-nav {
       float:right !important;
     }
 
-    #ppsn2024-logo{
+   #logo{
       position: relative;
       // bottom: 5px;
       // left: 15px;      
       display:inline-block;
-      height:60px;
+      // height:60px;
     }
 
-    .nav-home-brand #ppsn2024-logo g,
-    .nav-home-brand #ppsn2024-logo polygon,
-    .nav-home-brand #ppsn2024-logo path {
+    .nav-home-brand #logo g,
+    .nav-home-brand #logo polygon,
+    .nav-home-brand #logo path {
       fill: $brand-text-light;
       opacity: 0.85;
       transition: opacity 200ms ease-in;  
     }
 
-    .nav-home-brand #ppsn2024-logo>path {
+    .nav-home-brand loo>path {
       opacity: 0.75;
     }
 
-    .nav-page-brand #ppsn2024-logo g,
-    .nav-page-brand #ppsn2024-logo polygon,
-    .nav-page-brand #ppsn2024-logo path {
+    .nav-page-brand #logo g,
+    .nav-page-brand #logo polygon,
+    .nav-page-brand #logo path {
       fill: $brand-primary;      
       transition: fill 200ms ease-in;
     }
 
     .nav-home-brand:hover {
-      #ppsn2024-logo g,
-      #ppsn2024-logo polygon,
-      #ppsn2024-logo path {
+      #logo g,
+      #logo polygon,
+      #logo path {
       //   fill: $brand-secondary !important;
         opacity: 1.0; 
       }
      }
 
    .nav-page-brand:hover {
-      #ppsn2024-logo g,
-      #ppsn2024-logo polygon,
-      #ppsn2024-logo path {
+      #logo g,
+      #logo polygon,
+      #logo path {
         fill: $brand-dark-grey !important;        
       }
      }
@@ -147,18 +147,18 @@ nav#main-nav.navbar-top.nav-page {
       background-color: $brand-primary !important;      
     }
 
-    #ppsn2024-logo g,
-    #ppsn2024-logo polygon,
-    #ppsn2024-logo path {
+    #logo g,
+    #logo polygon,
+    #logo path {
       opacity: 1.0;
       fill: $brand-primary !important; 
       transition: fill 200ms ease-in;
     }
 
     .brand-container .navbar-brand:hover {
-      #ppsn2024-logo g,
-      #ppsn2024-logo polygon,
-      #ppsn2024-logo path {
+      #logo g,
+      #logo polygon,
+      #logo path {
          fill: $brand-dark-grey !important;         
        }
      }

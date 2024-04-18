@@ -33,7 +33,7 @@ description: Homepage of the Camera Traps, AI, and Ecology Workshop 2024
             <div class="col-lg-6 col-md-12">
                 <h2>Dates and Deadlines</h2>
                 <p class="text-justify">
-                    The workshop will take place from <b>September 5-6, 2024</b>. Other important dates are:<br/><em>(deadline interpretation = end of the day, anywhere on earth)</em>
+                    The workshop will take place from <b>September 5-6, 2024</b>. Other important dates are:<br/>
                 </p>
                 <ul class="date-list">
                     <li>Paper submission due:           <span>June 28, 2024</span></li>
@@ -41,6 +41,7 @@ description: Homepage of the Camera Traps, AI, and Ecology Workshop 2024
                     <li>Camera-ready version due:         <span>August 21, 2024</span></li>
                 </ul>
                 <p>
+                    <em>(deadline interpretation = end of the day, anywhere on earth)</em> <br/>
                     For further details look at <a href="{{ site.baseurl }}/calls">Calls</a> and <a href="{{ site.baseurl }}/program">Program</a>.
                 </p>
             </div>
@@ -67,7 +68,7 @@ description: Homepage of the Camera Traps, AI, and Ecology Workshop 2024
 
 <section class="background-light pad" id="contact">
    <div class="container text-justify">
-      <h2>Organization Team</h2>
+      <h2>Local Organization Team</h2>
       <div class="row contact-info">
          {% for group in site.data.people.groups %}
          {% if group.short == "fhooe" %}
