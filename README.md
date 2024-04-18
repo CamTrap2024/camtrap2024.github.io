@@ -24,7 +24,7 @@ These are the complete instructions for a development machine running under Micr
 
 ### Install Git and Clone the Repository
 
-Get the Git binaries from [https://git-scm.com/](https://git-scm.com/) or download GitHub Desktop from [https://desktop.github.com/](https://desktop.github.com/), then clone the repository to your local machine (e.g., `C:\Users\[User]\Documents\GitHub\digitalmedialab.at`).
+Get the Git binaries from [https://git-scm.com/](https://git-scm.com/) or download GitHub Desktop from [https://desktop.github.com/](https://desktop.github.com/), then clone the repository to your local machine (e.g., `C:\Users\[User]\Documents\GitHub\website`).
 
 ### Install Ruby
 
