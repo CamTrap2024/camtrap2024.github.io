@@ -6,7 +6,7 @@
 
 ## Open Points | Discussions | ToDos
 
-- [ ] Change LOGO and backround image
+- [x] Change LOGO and backround image
 - [ ] Update Call
 - [ ] Update Program
 - [ ] Update Submission
