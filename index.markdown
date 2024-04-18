@@ -6,22 +6,25 @@ description: Homepage of the Camera Traps, AI, and Ecology Workshop 2024
 ---
 
 <section class="background-light pad" id="welcome">
-    <div class="container text-justify">
-        <h1>Welcome</h1>
+    <div class="container text-justify"> 
         <div class="row">
             <div class="col-lg-12 col-md-12">
+                <h1>Information</h1>
                 <p class="text-justify">
                     The workshop on Camera traps, AI, and Ecology is held as a part of the international workshop series on camera traps and AI analysis for wildlife monitoring, including associated ecological and data collection methods. It runs as live and online sessions of expert talks, tutorials, discussions, and follow-up sessions. The workshop brings together three communities: camera trap data producers (e.g., nature parks and reserves), scientific practitioners (e.g., ecologists and conservationists), and AI analysis providers (e.g., computer scientists and engineers). The aim of the workshop is to promote exchange between these different communities, link wildlife data and AI methods, and initiate new interdisciplinary projects amongst attendees.
                 </p>
                 <p>
-                    All information regarding the organization, call for papers, submission, registration, venue, etc. is provided and will be constantly updated on this website. In case of any additional inquiries, please do not hesitate to <a href="#contact">contact us</a>.
+                The previous three workshops were held in 2022 and 2023. Content of previous workshops is available at
+                <ul>
+                    <li>the <a href="https://inf-cv.uni-jena.de/camtrap-ws/">2023 Workshop at the University Jena</a>, and </li>
+                    <li>the <a href="https://camtrapai.github.io/indexold.html">Archive of the 1st and 2nd workshops</a>.</li>
+                </ul>
                 </p>
-                <p>See you soon at our workshop&ndash;online or in Hagenberg, Austria!</p>
-                <br/>
                 <p>
-                    <em>David Schedl & Christoph Praschl</em><br/>
-                    <em>Local Organization Team</em>
+                    All information regarding the organization of the 2024 workshop is provided and will be constantly updated on this website. In case of any additional inquiries, please do not hesitate to <a href="#contact">contact us</a>.
                 </p>
+                <br/>
+                <p>See you soon at our workshop &ndash; online or in Hagenberg, Austria!</p>
             </div>
         </div>
     </div>
