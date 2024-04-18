@@ -1,6 +1,6 @@
 # Homepage for the Camera Traps, AI and Ecology Workshop 2024
 
-[Jenkyll Website](https://jekyllrb.com/) for the workshop, online at [camtraps2024.fh-ooe.at](camtraps2024.fh-ooe.at) and at [https://camtrap2024.github.io/](https://camtrap2024.github.io/). The repository is directly published online by GitHub-Pages. Content is stored file-based: mostly Markdown (.md) and YML (.yml) files.
+[Jenkyll Website](https://jekyllrb.com/) for the workshop, online at [https://camtrap2024.fh-ooe.at/](https://camtrap2024.fh-ooe.at/) and at [https://camtrap2024.github.io/](https://camtrap2024.github.io/). The repository is directly published online by GitHub-Pages. Content is stored file-based: mostly Markdown (.md) and YML (.yml) files.
 
 **❗💥 Warning: Any changes you make in the main repository will be directly online! 💥❗**
 
