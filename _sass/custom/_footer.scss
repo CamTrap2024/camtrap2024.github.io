@@ -1,0 +1,73 @@
+footer#main-footer{
+   background:$brand-dark-grey;
+   border-top: 5px solid $brand-grey;
+   text-align:center;
+   padding:1rem 0;
+
+   .row {
+      color:$base-font-color-dark-bg;
+      font-size:0.9rem;
+      padding:1.5rem 0;
+
+      .socials {
+         font-size:1.5rem;
+         > a {
+         padding: 0 1.5rem;
+         }
+      }
+   }
+
+   .row a{
+      color:$base-font-color-dark-bg;
+      text-decoration: none;
+      transition: 0.6s;
+   }
+
+   .row a:hover {
+      color:#fff;
+      text-decoration:underline;
+   }   
+}
+
+footer#disclaimer {
+   padding: 20px 0px 0px 0px;
+   background-color: $brand-dark-grey;
+   text-align:center;
+   padding:1rem 0;
+
+   .row {
+      color:$base-font-color-dark-bg;
+      font-size:0.9rem;
+      padding:1.5rem 0;
+   }
+
+   a {
+      text-decoration: none;
+   }
+
+   .rowbreak {
+      padding:0.25rem 0;
+   }
+}
+
+.footer-logo {
+   height: 60px;
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center;
+   margin: 10px 0px 0px 10px;
+}
+
+#logo-uasua {
+   height:50px;      
+   margin-top: 15px;      
+   background-image: url("../../assets/logo/logo_fhooe.png");
+}
+
+#logo-swph {      
+   background-image: url("../../assets/logo/logo_swph.png");
+}
+
+#logo-ua {      
+   background-image: url("../../assets/logo/logo_upperaustria.png");
+}

@@ -1,0 +1,28 @@
+groups:
+  - short: fhooe
+    name: University of Applied Sciences - Upper Austria
+    address:
+      street: Softwarepark 11
+      postal: 4232
+      city: Hagenberg im Mühlkreis
+      provinz: Upper Austria
+      country: Austria
+    members:
+      - nick: dschedl
+        firstname: David
+        lastname: Schedl
+        prefix: FH-Prof. Dr.
+        postfix:
+        position:
+        phone: +43 50804 22127
+        mail: david.schedl@fh-ooe.at
+        contact: true
+      - nick: cpraschl
+        firstname: Christoph
+        lastname: Praschl
+        prefix: FH-Assistant Prof.
+        postfix:
+        position:
+        phone: +43 50804 27150
+        mail: christoph.praschl@fh-ooe.at
+        contact: true
