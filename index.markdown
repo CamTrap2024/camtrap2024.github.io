@@ -71,6 +71,7 @@ description: Homepage of the Camera Traps, AI, and Ecology Workshop 2024
 
 <section class="background-light pad" id="contact">
    <div class="container text-justify">
+      <div class="row"><div class="col-sm-12">Write us at <a style="text-decoration:underline" href="mailto:camtraps2024@fh-hagenberg.at">camtraps2024@fh-hagenberg.at</a>.<br/><br/></div></div>
       <h2>Local Organization Team</h2>
       <div class="row contact-info">
          {% for group in site.data.people.groups %}
@@ -100,8 +101,60 @@ description: Homepage of the Camera Traps, AI, and Ecology Workshop 2024
          {% endif %}
          {% endfor %}
       </div>
-      <div class="row"><div class="col-sm-12">Write us at <a style="text-decoration:underline" href="mailto:camtraps2024@fh-ooe.at">camtraps2024@fh-ooe.at</a>.<br/><br/></div></div>
+      <h2>Workshop Series Organizers</h2>
+      <div class="row contact-info">
+         {% for group in site.data.people.groups %}
+         {% if group.short == "camtrap" %}
+         {% for member in group.members %}
+         {% if member.contact %}
+         <div class="col-lg-4 col-md-12">
+            <h4>{{member.prefix}} {{member.firstname}} {{member.lastname}} {{member.postfix}}</h4>
+            <p>{{member.phone}}</p>
+            <!--<table class="contact-table">
+               <body>
+                  <tr>
+                     <td>Phone:</td>
+                     <td>{{member.phone}}</td>
+                  </tr>
+                  <tr>
+                     <td>Mail:</td>
+                     <td>
+                        <a href="mailto:{{member.mail}}">{{member.mail}}</a>
+                     </td>
+                  </tr>
+               </body>
+            </table> -->
+         </div>
+         {% endif %}
+         {% endfor%}
+         {% endif %}
+         {% endfor %}
+      </div>
    </div>
+   <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="row justify-content-md-center">
+                {% assign fhooe = site.data.nav.Partners | where: "item", "fhooe" | first %}
+                {% assign jena = site.data.nav.Partners | where: "item", "jena" | first %}
+                {% assign bristol = site.data.nav.Partners | where: "item", "bristol" | first %}
+                <div class="col-md-4">
+                    <a href="{{fhooe.link}}" alt="{{fhooe.name.en}}" target="_blank">
+                    <div id="logo-uasua2" class="footer-logo"></div>
+                </a>
+                </div>
+                <div class="col-md-4">
+                <a href="{{jena.link}}" alt="{{jena.name.en}}" target="_blank">
+                    <div id="logo-jena2" class="footer-logo"></div>
+                </a>
+                </div>
+                <div class="col-md-4">
+                <a href="{{bristol.link}}" alt="{{bristol.name.en}}" target="_blank">
+                    <div id="logo-bristol2" class="footer-logo"></div>
+                </a>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 {% include map.html %}

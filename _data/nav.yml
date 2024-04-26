@@ -55,3 +55,16 @@ Partners:
       en: State of Upper Austria
     link: "https://www.upperaustria.at/"
     hardlink: true
+  - item: bristol
+    name:
+      de: University of Bristol
+      en: University of Bristol
+    link: "https://www.bristol.ac.uk/"
+    hardlink: true
+  - item: jena
+    name:
+      de: Friedrich-Schiller-Universität Jena
+      en: Friedrich Schiller University Jena
+    link: "https://www.uni-jena.de/en"
+    hardlink: true
+

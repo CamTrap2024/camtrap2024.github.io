@@ -20,11 +20,32 @@ groups:
       - nick: cpraschl
         firstname: Christoph
         lastname: Praschl
-        prefix: FH-Assistant Prof.
+        prefix: FH-Assistant-Prof.
         postfix:
         position:
         phone: +43 50804 27150
         mail: christoph.praschl@fh-ooe.at
+        contact: true
+  - short: camtrap
+    name: University of Applied Sciences - Upper Austria
+    members:
+      - nick: pbodesheim
+        firstname: Paul
+        lastname: Bodesheim
+        prefix: Dr.-Ing.
+        postfix:
+        position:
+        phone: +49 3641 9 46410
+        mail: paul.bodesheim@uni-jena.de
+        contact: true
+      - nick: tburghardt
+        firstname: Tilo 
+        lastname: Burghardt
+        prefix: Assoc.-Prof. Dr.
+        postfix:
+        position:
+        phone: +44 117 456 0372
+        mail: tb2935@bristol.ac.uk
         contact: true
 
 team:
