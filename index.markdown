@@ -131,30 +131,6 @@ description: Homepage of the Camera Traps, AI, and Ecology Workshop 2024
          {% endfor %}
       </div>
    </div>
-   <div class="container">
-        <div class="row justify-content-md-center">
-            <div class="row justify-content-md-center">
-                {% assign fhooe = site.data.nav.Partners | where: "item", "fhooe" | first %}
-                {% assign jena = site.data.nav.Partners | where: "item", "jena" | first %}
-                {% assign bristol = site.data.nav.Partners | where: "item", "bristol" | first %}
-                <div class="col-md-4">
-                    <a href="{{fhooe.link}}" alt="{{fhooe.name.en}}" target="_blank">
-                    <div id="logo-uasua2" class="footer-logo"></div>
-                </a>
-                </div>
-                <div class="col-md-4">
-                <a href="{{jena.link}}" alt="{{jena.name.en}}" target="_blank">
-                    <div id="logo-jena2" class="footer-logo"></div>
-                </a>
-                </div>
-                <div class="col-md-4">
-                <a href="{{bristol.link}}" alt="{{bristol.name.en}}" target="_blank">
-                    <div id="logo-bristol2" class="footer-logo"></div>
-                </a>
-                </div>
-            </div>
-        </div>
-    </div>
 </section>
 
 {% include map.html %}

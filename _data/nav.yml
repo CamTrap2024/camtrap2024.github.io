@@ -67,4 +67,29 @@ Partners:
       en: Friedrich Schiller University Jena
     link: "https://www.uni-jena.de/en"
     hardlink: true
+  - item: epfl
+    name:
+      de: Eidgenössische Technische Hochschule Lausanne
+      en: Swiss Federal Institute of Technology in Lausanne
+    link: "https://www.epfl.ch/en/"
+    hardlink: true
+  - item: mpi
+    name:
+      de: Max-Planck-Institut für evolutionäre Anthropologie
+      en: Max Planck Institute for Evolutionary Anthropology
+    link: "https://www.eva.mpg.de/index/"
+    hardlink: true
+  - item: idiv
+    name:
+      de: Deutsches Zentrum für integrative Biodiversitätsforschung
+      en: German Centre for Integrative Biodiversity Research
+    link: "https://www.idiv.de/en/index.html"
+    hardlink: true
+  - item: freiburg
+    name:
+      de: Universität Freiburg
+      en: University of Freiburg
+    link: "https://www.wildlife.uni-freiburg.de/en/"
+    hardlink: true
+
 

@@ -25,4 +25,55 @@ description: Everything organizational about the workshop
       </div>
     </div>
   </div>
+  <br>
+  <div class="container">
+    <div class="row justify-content-md-center">
+        <div class="row justify-content-md-center">
+            {% assign fhooe = site.data.nav.Partners | where: "item", "fhooe" | first %}
+            {% assign jena = site.data.nav.Partners | where: "item", "jena" | first %}
+            {% assign bristol = site.data.nav.Partners | where: "item", "bristol" | first %}
+            {% assign epfl = site.data.nav.Partners | where: "item", "epfl" | first %}
+            {% assign mpi = site.data.nav.Partners | where: "item", "mpi" | first %}
+            {% assign idiv = site.data.nav.Partners | where: "item", "idiv" | first %}
+            {% assign freiburg = site.data.nav.Partners | where: "item", "freiburg" | first %}
+            <div class="col-md-3">
+                <a href="{{fhooe.link}}" alt="{{fhooe.name.en}}" target="_blank">
+                <div id="logo-uasua2" class="footer-logo"></div>
+            </a>
+            </div>
+            <div class="col-md-3">
+            <a href="{{jena.link}}" alt="{{jena.name.en}}" target="_blank">
+                <div id="logo-jena2" class="footer-logo"></div>
+            </a>
+            </div>
+            <div class="col-md-3">
+            <a href="{{bristol.link}}" alt="{{bristol.name.en}}" target="_blank">
+                <div id="logo-bristol2" class="footer-logo"></div>
+            </a>
+            </div>
+
+            <div class="col-md-3">
+              <a href="{{freiburg.link}}" alt="{{freiburg.name.en}}" target="_blank">
+                  <div id="logo-freiburg" class="footer-logo"></div>
+              </a>
+            </div>
+
+            <div class="col-md-4">
+              <a href="{{epfl.link}}" alt="{{epfl.name.en}}" target="_blank">
+                  <div id="logo-epfl" class="footer-logo"></div>
+              </a>
+            </div>           
+            <div class="col-md-4">
+              <a href="{{idiv.link}}" alt="{{idiv.name.en}}" target="_blank">
+                  <div id="logo-idiv" class="footer-logo"></div>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="{{mpi.link}}" alt="{{mpi.name.en}}" target="_blank">
+                  <div id="logo-mpi" class="footer-logo"></div>
+              </a>
+            </div>
+        </div>
+    </div>
+</div>
 </section>
