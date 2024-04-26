@@ -21,24 +21,16 @@
          <div class="row justify-content-md-center">
             {% assign fhooe = site.data.nav.Partners | where: "item", "fhooe" | first %}
             {% assign swph = site.data.nav.Partners | where: "item", "swph" | first %}
-            {% assign jena = site.data.nav.Partners | where: "item", "jena" | first %}
-            {% assign bristol = site.data.nav.Partners | where: "item", "bristol" | first %}
+            {% assign bwhl = site.data.nav.Partners | where: "item", "bwhl" | first %}
             <div class="col-md-3"><a href="{{fhooe.link}}" alt="{{fhooe.name.en}}" target="_blank">
                   <div id="logo-uasua" class="footer-logo"></div>
                </a></div>
             <div class="col-md-3"><a href="{{swph.link}}" alt="{{swph.name.en}}" target="_blank">
                   <div id="logo-swph" class="footer-logo"></div>
                </a></div>
-            <div class="col-md-3">
-               <a href="{{jena.link}}" alt="{{jena.name.en}}" target="_blank">
-                     <div id="logo-jena" class="footer-logo"></div>
-               </a>
-               </div>
-            <div class="col-md-3">
-            <a href="{{bristol.link}}" alt="{{bristol.name.en}}" target="_blank">
-                  <div id="logo-bristol" class="footer-logo"></div>
-            </a>
-            </div>      
+            <div class="col-md-3"><a href="{{bwhl.link}}" alt="{{bwhl.name.en}}" target="_blank">
+                  <div id="logo-bwhl" class="footer-logo"></div>
+               </a></div>
          </div>
       </div>
 </footer>

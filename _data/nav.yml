@@ -91,5 +91,11 @@ Partners:
       en: University of Freiburg
     link: "https://www.wildlife.uni-freiburg.de/en/"
     hardlink: true
+  - item: bwhl
+    name:
+      de: Büro für Wildökologie und Forstwirtschaft e.U.
+      en: Office for Wildlife Ecology and Forestry e.U.
+    link: "https://www.wildoekologie.at/"
+    hardlink: true
 
 
