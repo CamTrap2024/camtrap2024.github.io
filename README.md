@@ -20,7 +20,7 @@
 
 If you want to make considerable changes to the website please test them first with a local setup.
 
-These are the complete instructions for a development machine running under Microsoft Windows. The instructions should be very similar for any other operating system and have been verified on [Google Colab](https://colab.research.google.com/github/DigitalMediaLab-AT/digitalmedialab.at/blob/main/test_setup_GoogleColab.ipynb) (see [test_setup_GoogleColab](test_setup_GoogleColab.ipynb)).
+These are the complete instructions for a development machine running under Microsoft Windows. The instructions should be very similar for any other operating system (i.e., it runs on Colab).
 
 ### Install Git and Clone the Repository
 
