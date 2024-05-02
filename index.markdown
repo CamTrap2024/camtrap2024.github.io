@@ -130,6 +130,12 @@ description: Homepage of the Camera Traps, AI, and Ecology Workshop 2024
          {% endif %}
          {% endfor %}
       </div>
+      <!-- link to the team subpage -->
+      <div class="row">
+            <div class="col-sm-12">
+            For more information about the team and organizers, please visit the <a href="{{ site.baseurl }}/team">Team</a> page.
+            </div>
+      </div>
    </div>
 </section>
 
