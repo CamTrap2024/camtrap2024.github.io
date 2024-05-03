@@ -11,20 +11,24 @@ description: Homepage of the Camera Traps, AI, and Ecology Workshop 2024
             <div class="col-lg-12 col-md-12">
                 <h1>Information</h1>
                 <p class="text-justify">
-                    The workshop on Camera traps, AI, and Ecology is held as a part of the international workshop series on camera traps and AI analysis for wildlife monitoring, including associated ecological and data collection methods. It runs as live and online sessions of expert talks, tutorials, discussions, and follow-up sessions. The workshop brings together three communities: camera trap data producers (e.g., nature parks and reserves), scientific practitioners (e.g., ecologists and conservationists), and AI analysis providers (e.g., computer scientists and engineers). The aim of the workshop is to promote exchange between these different communities, link wildlife data and AI methods, and initiate new interdisciplinary projects amongst attendees.
+                    Join us for the Camera Traps, AI, and Ecology workshop, part of an international series focusing on wildlife monitoring using AI and camera traps. This workshop, held both live and online, unites camera trap data producers, scientific practitioners, and AI providers to foster collaboration, bridge wildlife data with AI, and initiate interdisciplinary projects. 
+                </p>
+                <p class="bold">
+                    We are currently accepting submissions and greatly value your contributions: <br/> <br/>
+                    <!-- button submit your work-->
+                    <a href="{{ site.baseurl }}/calls" class="btn btn-primary">Submit your work now!</a>
                 </p>
                 <p>
-                The previous three workshops were held in 2022 and 2023. Content of previous workshops is available at
+                Previous workshops were conducted in 2022 and 2023. Past content can be found at:
                 <ul>
-                    <li>the <a href="https://inf-cv.uni-jena.de/camtrap-ws/">2023 Workshop at the University Jena</a>, and </li>
-                    <li>the <a href="https://camtrapai.github.io/indexold.html">Archive of the 1st and 2nd workshops</a>.</li>
+                    <li><a href="https://inf-cv.uni-jena.de/camtrap-ws/">2023 Workshop at the University Jena</a> </li>
+                    <li>the <a href="https://camtrapai.github.io/indexold.html">Archive of the 1st and 2nd workshops</a></li>
                 </ul>
                 </p>
                 <p>
-                    All information regarding the organization of the 2024 workshop is provided and will be constantly updated on this website. In case of any additional inquiries, please do not hesitate to <a href="#contact">contact us</a>.
+                    Stay updated on the 2024 workshop details on this site. For inquiries, feel free to <a href="#contact">contact us</a>.
                 </p>
-                <br/>
-                <p>See you soon at our workshop &ndash; online or in Hagenberg, Austria!</p>
+                <p>Join us online or in <a href="#contact-map">Hagenberg, Austria!</a></p>
             </div>
         </div>
     </div>
