@@ -21,7 +21,7 @@ description: Programm of PPSN 2024 conference
         <div class="row">
             <div class="col-md-12">    
                 <!--<h4>{{ schedule.date }}</h4>-->
-                <table class="table">
+                <table class="table table-hover table-striped ">
                     <!--<caption style="">{{ schedule.date }}</caption>-->
                     <thead>
                         <tr>
@@ -46,11 +46,15 @@ description: Programm of PPSN 2024 conference
                         <td>{{ slot.title }}</td>
                     </tr>
                     {% endfor %}
+                    {% if forloop.last %}
+                    {% else %}
                     <tr>
                         <td colspan="3"></td>
                     </tr>
+                    {% endif %}
                     {% endfor %}
                 </tbody>
+                <caption> Workshop Schedule (all times are in CEST)</caption>
             </table>
             </div>
         </div>
