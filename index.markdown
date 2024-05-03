@@ -80,7 +80,7 @@ description: Homepage of the Camera Traps, AI, and Ecology Workshop 2024
          {% if member.contact %}
          <div class="col-lg-4 col-md-12">
             <h4>{{member.prefix}} {{member.firstname}} {{member.lastname}} {{member.postfix}}</h4>
-            <p>{{member.phone}}</p>
+            <p>{{member.organization}}<br>{{member.phone}}</p>
             <!--<table class="contact-table">
                <body>
                   <tr>
@@ -109,7 +109,7 @@ description: Homepage of the Camera Traps, AI, and Ecology Workshop 2024
          {% if member.contact %}
          <div class="col-lg-4 col-md-12">
             <h4>{{member.prefix}} {{member.firstname}} {{member.lastname}} {{member.postfix}}</h4>
-            <p>{{member.phone}}</p>
+            <p>{{member.organization}}<br>{{member.phone}}</p>
             <!--<table class="contact-table">
                <body>
                   <tr>
