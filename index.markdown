@@ -28,7 +28,10 @@ description: Homepage of the Camera Traps, AI, and Ecology Workshop 2024
                 <p>
                     Stay updated on the 2024 workshop details on this site. For inquiries, feel free to <a href="#contact">contact us</a>.
                 </p>
-                <p>Join us online or in <a href="#contact-map">Hagenberg, Austria!</a></p>
+                <p>To join us online or in Hagenberg <br/>
+                <!-- button register now-->
+                    <a href="https://events.teams.microsoft.com/event/1736783a-9476-4f7d-a3f4-927637d3f714@f88d4b73-6bb2-4b9a-abc7-eb96e5a6407c" class="btn btn-primary">Register (for free) now!</a>
+                </p>
             </div>
         </div>
     </div>
@@ -66,7 +69,7 @@ description: Homepage of the Camera Traps, AI, and Ecology Workshop 2024
                     </address>
                 </p>
                 <p>
-                    Further details about the <b>online access</b> will be announced shortly before the workshop!
+                    <b>Online access</b> is available as <a href="https://events.teams.microsoft.com/event/1736783a-9476-4f7d-a3f4-927637d3f714@f88d4b73-6bb2-4b9a-abc7-eb96e5a6407c">Teams Event (you need to accept the event)!</a>
                 </p>
             </div>
         </div>

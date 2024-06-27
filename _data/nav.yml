@@ -1,4 +1,10 @@
 MainNav:
+  - item: register
+    name:
+      de: Register
+      en: Register
+    link: "https://events.teams.microsoft.com/event/1736783a-9476-4f7d-a3f4-927637d3f714@f88d4b73-6bb2-4b9a-abc7-eb96e5a6407c"
+    hardlink: false
   - item: calls
     name:
       de: Call
@@ -97,5 +103,3 @@ Partners:
       en: Office for Wildlife Ecology and Forestry e.U.
     link: "https://www.wildoekologie.at/"
     hardlink: true
-
-
