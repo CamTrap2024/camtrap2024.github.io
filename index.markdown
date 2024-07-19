@@ -46,9 +46,9 @@ description: Homepage of the Camera Traps, AI, and Ecology Workshop 2024
                     The workshop will take place from <b>September 5-6, 2024</b>. Other important dates are:<br/>
                 </p>
                 <ul class="date-list">
-                    <li>Paper submission due:           <span><s>June 28, 2024</s> Extension: July 19, 2024</span></li>
-                    <li>Paper acceptance notification:  <span>August 10, 2024</span></li>
-                    <li>Camera-ready version due:         <span>August 21, 2024</span></li>
+                    <li>Paper submission due:           <span><s>June 28, 2024</s> <!--<s>Extension: July 19, 2024</s> -->2ⁿᵈ Extension: July 31, 2024</span></li>
+                    <li>Paper acceptance notification:  <span><s>August 10, 2024</s> August 18, 2024</span></li>
+                    <li>Camera-ready version due:         <span><s>August 21, 2024</s> September 1, 2024</span></li>
                 </ul>
                 <p>
                     <em>(deadline interpretation = end of the day, anywhere on earth)</em> <br/>
