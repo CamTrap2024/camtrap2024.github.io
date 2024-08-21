@@ -49,18 +49,18 @@
       duration: 0.5
       category: break
     - time: "16:00"
-      title: "POSTCITY of the ARS Electronica Festival in Linz"
+      title: '<a href="../venue/#socialevent">POSTCITY of the ARS Electronica Festival in Linz</a>'
       duration: 2
       category: social
     - time: "18:00"
-      title: 'Social Evening at the <a href="./test">Bratwurstglöckerl</a> in Linz'
+      title: '<a href="../venue/#socialevent">Social Gathering at Bratwurstglöckerl in Linz</a>'
       duration: 2
       category: social
 
 - date: Friday, Sept. 6
   slots:
     - time: "09:00"
-      title: '<a href="#Stefano">Keynote #3: Stefano Mintchev</a>'
+      title: '<a href="#Stefano">Keynote #3 (Virtual): Stefano Mintchev</a>'
       category: keynote
       duration: 0.75
     - time: "09:45"
@@ -82,4 +82,4 @@
     - time: "12:00"
       title: "Closing Words &amp; Farewell"
       duration: 0.25
-      category: social
+      category: break
