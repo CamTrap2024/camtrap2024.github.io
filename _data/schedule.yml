@@ -1,111 +1,85 @@
-- date: June 26
+- date: Thursday, Sept. 5
   slots:
-    - time: "9:00"
-      title: Coffee Time
-      room: BR1 (F1.232)
-      desc: Get your coffee in the morning beofre the sessions start.
+    - time: "08:00"
+      title: "Registration and Welcome (by our dean Berthold Kerschbaumer)"
       duration: 1
-    - time: "10:00"
-      title: Poster Session
-      desc: Poster Session I - Genetic Algorithms in Real-World Applications
-      room: BR2 (F2.232)
-      duration: 2
-    - time: "12:00"
-      title: Poster Session
-      desc: Poster Session II - Symbolic Regression for physics-inspired Machine Learning.
-      room: BR2 (F2.232)
+      category: break
+    - time: "09:00"
+      title: '<a href="#Robin">Keynote #1: Robin Sandfort</a>'
+      duration: 0.75
+      category: keynote
+    - time: "09:45"
+      title: '<a href="#Trapper">Tutorial #1: TRAPPER, an open-source ecosystem for camera trapping projects</a>'
+      duration: 0.5
+      category: tutorial
+    - time: "10:15"
+      title: "Coffee Break ☕"
+      duration: 0.5
+      category: break
+    - time: "10:45"
+      title: '<a href="#papers1">Paper Session #1: Wildlife and Camera Trapping</a>'
       duration: 1
-    - time: "13:00"
-      title: Lunch Break
-      desc: Buffed for your refreshing. Come get some food and have a chat.
-      room: BR1 (F1.232)
-      duration: 2
+      category: papers
+    - time: "11:45"
+      title: "Lunch Break 🥗"
+      duration: 1
+      category: break
+    - time: "12:45"
+      title: '<a href="#Cliodhna">Keynote #2: Cliodhna Quigley</a>'
+      duration: 0.75
+      category: keynote
+    - time: "13:30"
+      title: '<a href="#papers2">Paper Session #2: Insect Monitoring</a>'
+      duration: 0.5
+      category: papers
+    - time: "14:00"
+      title: "Coffee Break ☕"
+      duration: 0.5
+      category: break
+    - time: "14:30"
+      title: '<a href="#Swarovski">Tutorial #2: Swarovski Optik, smart binoculars</a>'
+      duration: 0.5
+      category: tutorial
     - time: "15:00"
-      title: Workshop II
-      desc: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas itaque hic quibusdam fugiat est numquam harum, accusamus suscipit consequatur laboriosam!
-      room: BR3 (F3.232)
+      title: '<a href="#Smartmulticopters">Tutorial #3: Smartmulticopters, development and production of UAV platform</a>'
+      duration: 0.5
+      category: tutorial
+    - time: "15:30"
+      title: "Hands-on 👐: binoculars and drones"
+      duration: 0.5
+      category: break
+    - time: "16:00"
+      title: '<a href="../venue/#socialevent">POSTCITY of the ARS Electronica Festival in Linz</a>'
       duration: 2
-    - time: "17:00"
-      title: Workshop II
-      desc: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas itaque hic quibusdam fugiat est numquam harum, accusamus suscipit consequatur laboriosam!
-      room: BR3 (F3.232)
-      duration: 1
+      category: social
     - time: "18:00"
-      title: Closing
-      desc: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas itaque hic quibusdam fugiat est numquam harum, accusamus suscipit consequatur laboriosam!
-      room: BR1 (F1.232)
-      duration: 1
-- date: June 27
+      title: '<a href="../venue/#socialevent">Social Gathering at Bratwurstglöckerl in Linz</a>'
+      duration: 2
+      category: social
+
+- date: Friday, Sept. 6
   slots:
-    - time: "9:00"
-      title: Coffee Time
-      room: BR1 (F1.232)
-      desc: Get your coffee in the morning beofre the sessions start.
-      duration: 1
-    - time: "10:00"
-      title: Poster Session
-      desc: Poster Session I - Genetic Algorithms in Real-World Applications
-      room: BR2 (F2.232)
-      duration: 2
+    - time: "09:00"
+      title: '<a href="#Stefano">Keynote #3 (Virtual): Stefano Mintchev</a>'
+      category: keynote
+      duration: 0.75
+    - time: "09:45"
+      title: '<a href="#papers3">Paper Session #3: Drones</a>'
+      duration: .5
+      category: papers
+    - time: "10:15"
+      title: "Coffee Break ☕"
+      category: break
+      duration: 0.5
+    - time: "10:45"
+      title: '<a href="#Claudia">Keynote #4: Claudia Probst &amp; Georg Schneider</a>'
+      duration: 0.75
+      category: keynote
+    - time: "11:30"
+      title: '<a href="#papers4">Paper Session #4: Digital Nose</a>' # Digital Nose
+      duration: 0.5
+      category: papers
     - time: "12:00"
-      title: Poster Session
-      desc: Poster Session II - Symbolic Regression for physics-inspired Machine Learning.
-      room: BR2 (F2.232)
-      duration: 1
-    - time: "13:00"
-      title: Lunch Break
-      desc: Buffed for your refreshing. Come get some food and have a chat.
-      room: BR1 (F1.232)
-      duration: 2
-    - time: "15:00"
-      title: Workshop II
-      desc: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas itaque hic quibusdam fugiat est numquam harum, accusamus suscipit consequatur laboriosam!
-      room: BR3 (F3.232)
-      duration: 2
-    - time: "17:00"
-      title: Workshop II
-      desc: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas itaque hic quibusdam fugiat est numquam harum, accusamus suscipit consequatur laboriosam!
-      room: BR3 (F3.232)
-      duration: 1
-    - time: "18:00"
-      title: Closing
-      desc: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas itaque hic quibusdam fugiat est numquam harum, accusamus suscipit consequatur laboriosam!
-      room: BR1 (F1.232)
-      duration: 1
-- date: June 28
-  slots:
-    - time: "9:00"
-      title: Coffee Time
-      room: BR1 (F1.232)
-      desc: Get your coffee in the morning beofre the sessions start.
-      duration: 1
-    - time: "10:00"
-      title: Poster Session
-      desc: Poster Session I - Genetic Algorithms in Real-World Applications
-      room: BR2 (F2.232)
-      duration: 2
-    - time: "12:00"
-      title: Poster Session
-      desc: Poster Session II - Symbolic Regression for physics-inspired Machine Learning.
-      room: BR2 (F2.232)
-      duration: 1
-    - time: "13:00"
-      title: Lunch Break
-      desc: Buffed for your refreshing. Come get some food and have a chat.
-      room: BR1 (F1.232)
-      duration: 2
-    - time: "15:00"
-      title: Workshop II
-      desc: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas itaque hic quibusdam fugiat est numquam harum, accusamus suscipit consequatur laboriosam!
-      room: BR3 (F3.232)
-      duration: 2
-    - time: "17:00"
-      title: Workshop II
-      desc: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas itaque hic quibusdam fugiat est numquam harum, accusamus suscipit consequatur laboriosam!
-      room: BR3 (F3.232)
-      duration: 1
-    - time: "18:00"
-      title: Closing
-      desc: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas itaque hic quibusdam fugiat est numquam harum, accusamus suscipit consequatur laboriosam!
-      room: BR1 (F1.232)
-      duration: 1
+      title: "Closing Words &amp; Farewell"
+      duration: 0.25
+      category: break

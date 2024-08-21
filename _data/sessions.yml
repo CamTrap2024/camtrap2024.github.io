@@ -1,0 +1,43 @@
+- session: "Session #1: Wildlife and Camera Trapping"
+  id: papers1
+  papers:
+    - id: 2
+      title: "Improving Wildlife Management with AI: Species Detection and Classification from Camera Trap Data"
+      authors: "Sead Mustafic, Dominik Dachs, Rainer Prüller, Florian Schöggl, Roland Perko*"
+    - id: 8
+      title: "Utilizing digital elevation models for camera-trap distance estimation"
+      authors: "Leopold Böss*, Stephanie Wohlfahrt, David C. Schedl"
+    - id: 9
+      title: "Beyond Humanity: Leveraging Pre-trained Human Video Classification Models for Data-Efficient Cross-Species Wildlife Animal Action Recognition"
+      authors: "Wenxin Zhao"
+    - id: 11
+      title: "How to improve the estimation of red deer (Cervus elaphus) population density in Serbia"
+      authors: "Miroslav Urosevic"
+- session: "Session #2: Insect Monitoring"
+  id: papers2
+  papers:
+    - id: 3
+      title: "High resolution environmental monitoring of pollinator insects through macro camera trapping and AI"
+      authors: "Mohammad Sa'Doun*, Daniel Dalton, Vanessa Berger, Gernot Paulus, Anders Karl-Heinrich, Ilja Svetnik, Johanna Schulz, Peter Unglaub"
+
+    - id: 12
+      title: "TaxaNet: Harnessing a Hierarchical Loss Function for Insect Classification Using Deep Learning"
+      authors: "Chirag Padubidri*, Heleen Visserman, Andreas Lanitis"
+- session: "Session #3: Drones"
+  id: papers3
+  papers:
+    - id: 6
+      title: "AUTH-Sheep: An Annotated Video Dataset for Detection and Tracking of Sheep in UAV imagery"
+      authors: "Oliver Doll*, Alexander Loos"
+    - id: 7
+      title: "Optical Geolocalization in a Global Coordinate System"
+      authors: "Harald Lampesberger*, Eckehard Hermann, Markus Zeilinger"
+- session: "Session #4: Digital Nose"
+  id: papers4
+  papers:
+    - id: 4
+      title: "Characterization of volatile organic compounds (VOCs) emitted by European spruce trees under stress (Digi-Nose Part 1)"
+      authors: "Eva Olivia Huber*, Sabrina Kröhnert, Georg Roman Schneider, Claudia Probst"
+    - id: 5
+      title: "Enhancing accuracy and efficiency of a digital nose system with sensor technology for early detection of changes in the forest (Digi-Nose Part 2)"
+      authors: "Leo Biljesko*, Georg Roman Schneider, Claudia Probst"
