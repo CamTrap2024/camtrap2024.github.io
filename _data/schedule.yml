@@ -1,51 +1,51 @@
 - date: Thursday, Sept. 5
   slots:
     - time: "08:00"
-      title: "Registration and Welcome (by our dean Berthold Kerschbauemer)"
+      title: "Registration and Welcome (by our dean Berthold Kerschbaumer)"
       duration: 1
       category: break
     - time: "09:00"
-      title: "Keynote #1: Robin Sandfort"
+      title: '<a href="#Robin">Keynote #1: Robin Sandfort</a>'
       duration: 0.75
       category: keynote
     - time: "09:45"
-      title: "Tutorial #1: Trapper AI"
+      title: '<a href="#Trapper">Tutorial #1: TRAPPER, an open-source ecosystem for camera trapping projects</a>'
       duration: 0.5
       category: tutorial
     - time: "10:15"
-      title: Coffee Break
+      title: "Coffee Break ☕"
       duration: 0.5
       category: break
     - time: "10:45"
-      title: "Paper Session #1: Wildlife and Camera Trapping"
+      title: '<a href="#papers1">Paper Session #1: Wildlife and Camera Trapping</a>'
       duration: 1
       category: papers
     - time: "11:45"
-      title: Lunch Break
+      title: "Lunch Break 🥗"
       duration: 1
       category: break
     - time: "12:45"
-      title: "Keynote #2: Cliodhna Quigley"
+      title: '<a href="#Cliodhna">Keynote #2: Cliodhna Quigley</a>'
       duration: 0.75
       category: keynote
     - time: "13:30"
-      title: "Paper Session #2: Insect Monitoring"
+      title: '<a href="#papers2">Paper Session #2: Insect Monitoring</a>'
       duration: 0.5
       category: papers
     - time: "14:00"
-      title: Coffee Break
+      title: "Coffee Break ☕"
       duration: 0.5
       category: break
     - time: "14:30"
-      title: "Tutorial #2: Swarovski"
+      title: '<a href="#Swarovski">Tutorial #2: Swarovski Optik, smart binoculars</a>'
       duration: 0.5
       category: tutorial
     - time: "15:00"
-      title: "Tutorial #3: Smart Multicopters"
+      title: '<a href="#Smartmulticopters">Tutorial #3: Smartmulticopters, development and production of UAV platform</a>'
       duration: 0.5
       category: tutorial
     - time: "15:30"
-      title: "Hands-on: binoculars and drones"
+      title: "Hands-on 👐: binoculars and drones"
       duration: 0.5
       category: break
     - time: "16:00"
@@ -60,26 +60,26 @@
 - date: Friday, Sept. 6
   slots:
     - time: "09:00"
-      title: "Keynote #3: Stefano Mintchev"
+      title: '<a href="#Stefano">Keynote #3: Stefano Mintchev</a>'
       category: keynote
       duration: 0.75
     - time: "09:45"
-      title: "Paper Session #3: Drones"
+      title: '<a href="#papers3">Paper Session #3: Drones</a>'
       duration: .5
       category: papers
     - time: "10:15"
-      title: Coffee Break
+      title: "Coffee Break ☕"
       category: break
       duration: 0.5
     - time: "10:45"
-      title: "Keynote #4: Claudia Probst &amp; Georg Schneider"
+      title: '<a href="#Claudia">Keynote #4: Claudia Probst &amp; Georg Schneider</a>'
       duration: 0.75
       category: keynote
     - time: "11:30"
-      title: "Paper Session #4: tba" # Digital Nose
+      title: '<a href="#papers4">Paper Session #4: tba</a>' # Digital Nose
       duration: 0.5
       category: papers
     - time: "12:00"
-      title: Closing Words + Farewell
+      title: "Closing Words &amp; Farewell"
       duration: 0.25
       category: social
