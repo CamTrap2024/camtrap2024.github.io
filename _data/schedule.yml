@@ -1,56 +1,85 @@
-- date: Thursday, Sept. 5 2024
+- date: Thursday, Sept. 5
   slots:
     - time: "08:00"
-      title: Registration and Arrival
+      title: "Registration and Welcome (by our dean Berthold Kerschbauemer)"
       duration: 1
+      category: break
     - time: "09:00"
-      title: Reception and Introduction
+      title: "Keynote #1: Robin Sandfort"
       duration: 0.75
+      category: keynote
     - time: "09:45"
-      title: Keynote 1
-      duration: 0.75
-    - time: "10:30"
+      title: "Tutorial #1: Trapper AI"
+      duration: 0.5
+      category: tutorial
+    - time: "10:15"
       title: Coffee Break
       duration: 0.5
-    - time: "11:00"
-      title: Paper Session #1
-      duration: 1.5
-    - time: "12:30"
-      title: Lunch
-      duration: 1.5
-    - time: "14:00"
-      title: Paper Session #2
+      category: break
+    - time: "10:45"
+      title: "Paper Session #1: Wildlife and Camera Trapping"
       duration: 1
-    - time: "15:00"
-      title: Keynote 2
+      category: papers
+    - time: "11:45"
+      title: Lunch Break
+      duration: 1
+      category: break
+    - time: "12:45"
+      title: "Keynote #2: Cliodhna Quigley"
       duration: 0.75
-    - time: "15:45"
+      category: keynote
+    - time: "13:30"
+      title: "Paper Session #2: Insect Monitoring"
+      duration: 0.5
+      category: papers
+    - time: "14:00"
       title: Coffee Break
       duration: 0.5
-    - time: "16:15"
-      title: Paper Session #3
-      duration: 1.25
-    - time: "17:30"
-      title: Open Discussion + Summary Day 1
+      category: break
+    - time: "14:30"
+      title: "Tutorial #2: Swarovski"
       duration: 0.5
-    - time: "19:00"
-      title: Social Event @ ARS Electronica Festival + Dinner
-      duration: 0
+      category: tutorial
+    - time: "15:00"
+      title: "Tutorial #3: Smart Multicopters"
+      duration: 0.5
+      category: tutorial
+    - time: "15:30"
+      title: "Hands-on: binoculars and drones"
+      duration: 0.5
+      category: break
+    - time: "16:00"
+      title: "POSTCITY of the ARS Electronica Festival in Linz"
+      duration: 2
+      category: social
+    - time: "18:00"
+      title: 'Social Evening at the <a href="./test">Bratwurstglöckerl</a> in Linz'
+      duration: 2
+      category: social
 
-- date: Friday, Sept. 6 2024
+- date: Friday, Sept. 6
   slots:
     - time: "09:00"
-      title: Keynote 3
+      title: "Keynote #3: Stefano Mintchev"
+      category: keynote
       duration: 0.75
     - time: "09:45"
-      title: Paper Session #4
-      duration: 1
-    - time: "10:45"
+      title: "Paper Session #3: Drones"
+      duration: .5
+      category: papers
+    - time: "10:15"
       title: Coffee Break
+      category: break
       duration: 0.5
-    - time: "11:15"
-      title: Paper Session #5
-      duration: 1
-    - time: "12:15"
+    - time: "10:45"
+      title: "Keynote #4: Claudia Probst &amp; Georg Schneider"
+      duration: 0.75
+      category: keynote
+    - time: "11:30"
+      title: "Paper Session #4: tba" # Digital Nose
+      duration: 0.5
+      category: papers
+    - time: "12:00"
       title: Closing Words + Farewell
       duration: 0.25
+      category: social

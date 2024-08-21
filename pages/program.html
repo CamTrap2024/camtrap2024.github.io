@@ -21,7 +21,7 @@ description: Programm of PPSN 2024 conference
         <div class="row">
             <div class="col-md-12">    
                 <!--<h4>{{ schedule.date }}</h4>-->
-                <table class="table table-hover table-striped ">
+                <table class="table table-hover table-striped "> 
                     <!--<caption style="">{{ schedule.date }}</caption>-->
                     <thead>
                         <tr>
@@ -42,8 +42,24 @@ description: Programm of PPSN 2024 conference
                         {% else %}
                         <td></td>
                         {% endif %}
-                        <td>{{ time_h | date: '%s' | date: '%H:%M' }} - {{ time_end | date: '%s' | date: '%H:%M' }} ({{ time_dura | divided_by: 60 | round }} min.)</td>
-                        <td>{{ slot.title }}</td>
+                        <td>{{ time_h | date: '%s' | date: '%H:%M' }} - {{ time_end | date: '%s' | date: '%H:%M' }} ({{ time_dura | divided_by: 60 | round }}&prime;)</td>
+                        {% if slot.category == "keynote" %}
+                            <td class="table-primary">
+                        {% elsif slot.category == "break" %}
+                            <td>
+                        {% elsif slot.category == "papers" %}
+                            <td class="table-success">
+                        {% elsif slot.category == "tutorial" %}
+                            <td class="table-info">
+                        {% elsif slot.category == "not used" %}
+                            <td class="table-warning">
+                        {% elsif slot.category == "social" %}
+                            <td class="table-danger">
+                        {% else %}
+                            <td>
+                        {% endif %}
+                            {{ slot.title }}
+                        </td>
                     </tr>
                     {% endfor %}
                     {% if forloop.last %}
@@ -54,7 +70,7 @@ description: Programm of PPSN 2024 conference
                     {% endif %}
                     {% endfor %}
                 </tbody>
-                <caption> Workshop Schedule (all times are in CEST)</caption>
+                <caption>All workshop-schedule times are in CEST.</caption>
             </table>
             </div>
         </div>
