@@ -53,6 +53,7 @@
     marker.openPopup();
 })(L);*/
 
+/*
 (function (L) {
     var map = L.map('map-parkhotel', {
         dragging: !L.Browser.mobile,
@@ -78,6 +79,7 @@
 
     marker.openPopup();
 })(L);
+*/
 
 (function (L) {
     var map = L.map('map', {

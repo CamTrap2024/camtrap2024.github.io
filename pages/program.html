@@ -61,7 +61,7 @@ description: Programm of the workshop
                     {% endif %}
                     {% endfor %}
                 </tbody>
-                <caption>All workshop-schedule times are in CEST.</caption>
+                <caption>All workshop schedule times are in CEST. Please note that the schedule is subject to minor changes.</caption>
             </table>
             </div>
         </div>
@@ -204,6 +204,9 @@ description: Programm of the workshop
                         </tr>
                         {% endfor %}
                     </tbody>
+                    {% if forloop.last %}
+                        <caption>* indicates corresponding authors.</caption>
+                    {% endif %}
                 </table>
                 {% endfor %}
             </div>

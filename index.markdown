@@ -14,9 +14,8 @@ description: Homepage of the Camera Traps, AI, and Ecology Workshop 2024
                     Join us for the Camera Traps, AI, and Ecology workshop, part of an international series focusing on wildlife monitoring using AI and camera traps. This workshop, held both live and online, unites camera trap data producers, scientific practitioners, and AI providers to foster collaboration, bridge wildlife data with AI, and initiate interdisciplinary projects. 
                 </p>
                 <p class="bold">
-                    We are currently accepting submissions and greatly value your contributions: <br/> <br/>
-                    <!-- button submit your work-->
-                    <a href="{{ site.baseurl }}/calls" class="btn btn-primary">Submit your work now!</a>
+                    We are excited to announce that the workshop schedule has been finalized! We invite you to take a look and plan your participation accordingly. <br/>
+                    <a href="{{ site.baseurl }}/program" class="btn btn-primary">See the program!</a>
                 </p>
                 <p>
                 Previous workshops were conducted in 2022 and 2023. Past content can be found at:
@@ -30,7 +29,7 @@ description: Homepage of the Camera Traps, AI, and Ecology Workshop 2024
                 </p>
                 <p>To join us online or in Hagenberg <br/>
                 <!-- button register now-->
-                    <a href="https://events.teams.microsoft.com/event/1736783a-9476-4f7d-a3f4-927637d3f714@f88d4b73-6bb2-4b9a-abc7-eb96e5a6407c" class="btn btn-primary">Register (for free) now!</a>
+                    <a href="https://events.teams.microsoft.com/event/1736783a-9476-4f7d-a3f4-927637d3f714@f88d4b73-6bb2-4b9a-abc7-eb96e5a6407c" class="btn btn-primary">Register (for free) now! <i class="fa fa-external-link" aria-hidden="true"></i></a>
                 </p>
             </div>
         </div>

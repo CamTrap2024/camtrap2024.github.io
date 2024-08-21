@@ -76,7 +76,7 @@
       duration: 0.75
       category: keynote
     - time: "11:30"
-      title: '<a href="#papers4">Paper Session #4: tba</a>' # Digital Nose
+      title: '<a href="#papers4">Paper Session #4: Digital Nose</a>' # Digital Nose
       duration: 0.5
       category: papers
     - time: "12:00"
