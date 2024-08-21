@@ -60,7 +60,7 @@
   background-color: $brand-primary !important;
 }
 
-section.subpage-venue, section.subpage-calls {
+section.subpage-venue, section.subpage-calls, .subpage-program, section.subpage {
   article:not(:first-child) {
     padding-top:25px;
   }

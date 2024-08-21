@@ -11,20 +11,27 @@ description: Homepage of the Camera Traps, AI, and Ecology Workshop 2024
             <div class="col-lg-12 col-md-12">
                 <h1>Information</h1>
                 <p class="text-justify">
-                    The workshop on Camera traps, AI, and Ecology is held as a part of the international workshop series on camera traps and AI analysis for wildlife monitoring, including associated ecological and data collection methods. It runs as live and online sessions of expert talks, tutorials, discussions, and follow-up sessions. The workshop brings together three communities: camera trap data producers (e.g., nature parks and reserves), scientific practitioners (e.g., ecologists and conservationists), and AI analysis providers (e.g., computer scientists and engineers). The aim of the workshop is to promote exchange between these different communities, link wildlife data and AI methods, and initiate new interdisciplinary projects amongst attendees.
+                    Join us for the Camera Traps, AI, and Ecology workshop, part of an international series focusing on wildlife monitoring using AI and camera traps. This workshop, held both live and online, unites camera trap data producers, scientific practitioners, and AI providers to foster collaboration, bridge wildlife data with AI, and initiate interdisciplinary projects. 
+                </p>
+                <p class="bold">
+                    We are currently accepting submissions and greatly value your contributions: <br/> <br/>
+                    <!-- button submit your work-->
+                    <a href="{{ site.baseurl }}/calls" class="btn btn-primary">Submit your work now!</a>
                 </p>
                 <p>
-                The previous three workshops were held in 2022 and 2023. Content of previous workshops is available at
+                Previous workshops were conducted in 2022 and 2023. Past content can be found at:
                 <ul>
-                    <li>the <a href="https://inf-cv.uni-jena.de/camtrap-ws/">2023 Workshop at the University Jena</a>, and </li>
-                    <li>the <a href="https://camtrapai.github.io/indexold.html">Archive of the 1st and 2nd workshops</a>.</li>
+                    <li><a href="https://inf-cv.uni-jena.de/camtrap-ws/">2023 Workshop at the University Jena</a> </li>
+                    <li>the <a href="https://camtrapai.github.io/indexold.html">Archive of the 1st and 2nd workshops</a></li>
                 </ul>
                 </p>
                 <p>
-                    All information regarding the organization of the 2024 workshop is provided and will be constantly updated on this website. In case of any additional inquiries, please do not hesitate to <a href="#contact">contact us</a>.
+                    Stay updated on the 2024 workshop details on this site. For inquiries, feel free to <a href="#contact">contact us</a>.
                 </p>
-                <br/>
-                <p>See you soon at our workshop &ndash; online or in Hagenberg, Austria!</p>
+                <p>To join us online or in Hagenberg <br/>
+                <!-- button register now-->
+                    <a href="https://events.teams.microsoft.com/event/1736783a-9476-4f7d-a3f4-927637d3f714@f88d4b73-6bb2-4b9a-abc7-eb96e5a6407c" class="btn btn-primary">Register (for free) now!</a>
+                </p>
             </div>
         </div>
     </div>
@@ -39,9 +46,9 @@ description: Homepage of the Camera Traps, AI, and Ecology Workshop 2024
                     The workshop will take place from <b>September 5-6, 2024</b>. Other important dates are:<br/>
                 </p>
                 <ul class="date-list">
-                    <li>Paper submission due:           <span>June 28, 2024</span></li>
-                    <li>Paper acceptance notification:  <span>August 10, 2024</span></li>
-                    <li>Camera-ready version due:         <span>August 21, 2024</span></li>
+                    <li>Paper submission due:           <span><s>June 28, 2024</s> <!--<s>Extension: July 19, 2024</s> -->2ⁿᵈ Extension: July 31, 2024</span></li>
+                    <li>Paper acceptance notification:  <span><s>August 10, 2024</s> August 18, 2024</span></li>
+                    <li>Camera-ready version due:         <span><s>August 21, 2024</s> September 1, 2024</span></li>
                 </ul>
                 <p>
                     <em>(deadline interpretation = end of the day, anywhere on earth)</em> <br/>
@@ -62,7 +69,7 @@ description: Homepage of the Camera Traps, AI, and Ecology Workshop 2024
                     </address>
                 </p>
                 <p>
-                    Further details about the <b>online access</b> will be announced shortly before the workshop!
+                    <b>Online access</b> is available as <a href="https://events.teams.microsoft.com/event/1736783a-9476-4f7d-a3f4-927637d3f714@f88d4b73-6bb2-4b9a-abc7-eb96e5a6407c">Teams Event (you need to accept the event)!</a>
                 </p>
             </div>
         </div>
@@ -80,7 +87,7 @@ description: Homepage of the Camera Traps, AI, and Ecology Workshop 2024
          {% if member.contact %}
          <div class="col-lg-4 col-md-12">
             <h4>{{member.prefix}} {{member.firstname}} {{member.lastname}} {{member.postfix}}</h4>
-            <p>{{member.phone}}</p>
+            <p>{{member.organization}}<br>{{member.phone}}</p>
             <!--<table class="contact-table">
                <body>
                   <tr>
@@ -109,7 +116,7 @@ description: Homepage of the Camera Traps, AI, and Ecology Workshop 2024
          {% if member.contact %}
          <div class="col-lg-4 col-md-12">
             <h4>{{member.prefix}} {{member.firstname}} {{member.lastname}} {{member.postfix}}</h4>
-            <p>{{member.phone}}</p>
+            <p>{{member.organization}}<br>{{member.phone}}</p>
             <!--<table class="contact-table">
                <body>
                   <tr>

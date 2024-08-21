@@ -9,6 +9,7 @@ groups:
       country: Austria
     members:
       - nick: dschedl
+        organization: University of Applied Sciences - Upper Austria
         firstname: David
         lastname: Schedl
         prefix: FH-Prof. Dr.
@@ -18,6 +19,7 @@ groups:
         mail: david.schedl@fh-ooe.at
         contact: true
       - nick: cpraschl
+        organization: University of Applied Sciences - Upper Austria
         firstname: Christoph
         lastname: Praschl
         prefix: FH-Assistant-Prof.
@@ -27,9 +29,10 @@ groups:
         mail: christoph.praschl@fh-ooe.at
         contact: true
   - short: camtrap
-    name: University of Applied Sciences - Upper Austria
+    name: 
     members:
       - nick: pbodesheim
+        organization: University of Jena
         firstname: Paul
         lastname: Bodesheim
         prefix: Dr.-Ing.
@@ -39,6 +42,7 @@ groups:
         mail: paul.bodesheim@uni-jena.de
         contact: true
       - nick: tburghardt
+        organization: University of Bristol
         firstname: Tilo 
         lastname: Burghardt
         prefix: Assoc.-Prof. Dr.
