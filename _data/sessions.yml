@@ -9,10 +9,10 @@
       authors: "Leopold Böss*, Stephanie Wohlfahrt, David C. Schedl"
     - id: 9
       title: "Beyond Humanity: Leveraging Pre-trained Human Video Classification Models for Data-Efficient Cross-Species Wildlife Animal Action Recognition"
-      authors: "Wenxin Zhao"
+      authors: "Wenxin Zhao*☁"
     - id: 11
       title: "How to improve the estimation of red deer (Cervus elaphus) population density in Serbia"
-      authors: "Miroslav Urosevic"
+      authors: "Miroslav Urosevic*, Bojan Tubic, Dejan Beukovic, Samantha Wisely"
 - session: "Session #2: Insect Monitoring"
   id: papers2
   papers:
