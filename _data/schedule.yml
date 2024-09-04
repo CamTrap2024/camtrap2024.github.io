@@ -1,8 +1,12 @@
 - date: Thursday, Sept. 5
   slots:
     - time: "08:00"
-      title: "Registration and Welcome (by our dean Berthold Kerschbaumer)"
-      duration: 1
+      title: "Registration"
+      duration: 0.75
+      category: break
+    - time: "08:45"
+      title: "Welcome Session (by our dean Berthold Kerschbaumer)"
+      duration: 0.25
       category: break
     - time: "09:00"
       title: '<a href="#Robin">Keynote #1: Robin Sandfort</a>'
