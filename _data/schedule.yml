@@ -45,12 +45,12 @@
       duration: 0.5
       category: tutorial
     - time: "15:00"
-      title: '<a href="#Smartmulticopters">Tutorial #3: Smartmulticopters, development and production of UAV platform</a>'
-      duration: 0.5
+      title: '<s><a href="#Smartmulticopters">Tutorial #3: Smartmulticopters, development and production of UAV platform</a></s> (Unfortunately cancelled due to illness)'
+      duration: 0.0
       category: tutorial
-    - time: "15:30"
+    - time: "15:00"
       title: "Hands-on 👐: binoculars and drones"
-      duration: 0.5
+      duration: 0.75
       category: break
     - time: "16:00"
       title: '<a href="../venue/#socialevent">POSTCITY of the ARS Electronica Festival in Linz</a>'
