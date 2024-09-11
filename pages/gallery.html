@@ -1,0 +1,27 @@
+---
+title: Gallery
+layout: subpage
+lang: en
+permalink: gallery/
+description: Gallery of the workshop
+---
+
+<section class="subpage-gallery">
+    <article id="gallery">
+        <h1 class="heading">Gallery</h1>
+        <p>Some impressions of the workshop in Hagenberg and the social event at the ARS Electronica Festival in Linz.</p>
+        <div class="row image-gallery-header">
+        <img src="/assets/img/DSC04110.jpg" />
+        </div>
+        <div class="row image-gallery">
+            {% assign sorted = site.data.images.images %}
+            {% for file in sorted %}
+            <div class="gallery-box">
+                <a href="https://zenodo.org/records/13744279/files/{{ file }}.jpg" target="_blank" title="{{ file }}">
+                    <img src="https://zenodo.org/records/13744279/files/{{ file }}_prev.jpg" alt="{{ file }}"  class="img-gallery" />
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </article>
+</section>

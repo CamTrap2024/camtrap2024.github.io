@@ -1,10 +1,9 @@
 MainNav:
-  - item: register
+  - item: Gallery
     name:
-      de: 'Register &amp; Join Online <i class="fa fa-external-link" aria-hidden="true"></i>'
-      en: 'Register &amp; Join Online <i class="fa fa-external-link" aria-hidden="true"></i>'
-    link: "https://events.teams.microsoft.com/event/1736783a-9476-4f7d-a3f4-927637d3f714@f88d4b73-6bb2-4b9a-abc7-eb96e5a6407c"
-    hardlink: false
+      de: 'Gallerie'
+      en: 'Gallery'
+    link: "/gallery"
   - item: calls
     name:
       de: Call
