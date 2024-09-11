@@ -24,13 +24,12 @@ description: Homepage of the Camera Traps, AI, and Ecology Workshop 2024
                     <li>the <a href="https://camtrapai.github.io/indexold.html">Archive of the 1st and 2nd workshops</a></li>
                 </ul>
                 </p>
-                <p>
+                <!--<p>
                     Stay updated on the 2024 workshop details on this site. For inquiries, feel free to <a href="#contact">contact us</a>.
                 </p>
                 <p>To join us online or in Hagenberg <br/>
-                <!-- button register now-->
                     <a href="https://events.teams.microsoft.com/event/1736783a-9476-4f7d-a3f4-927637d3f714@f88d4b73-6bb2-4b9a-abc7-eb96e5a6407c" class="btn btn-primary">Register (for free) now! <i class="fa fa-external-link" aria-hidden="true"></i></a>
-                </p>
+                </p>-->
             </div>
         </div>
     </div>
@@ -68,7 +67,7 @@ description: Homepage of the Camera Traps, AI, and Ecology Workshop 2024
                     </address>
                 </p>
                 <p>
-                    <b>Online access</b> is available as <a href="https://events.teams.microsoft.com/event/1736783a-9476-4f7d-a3f4-927637d3f714@f88d4b73-6bb2-4b9a-abc7-eb96e5a6407c">Teams Event (you need to accept the event)!</a>
+                    <b>Online access</b> is available as Microsoft Teams Event (you need to accept the event)!
                 </p>
             </div>
         </div>

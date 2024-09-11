@@ -1,4 +1,9 @@
 MainNav:
+  - item: Home
+    name:
+      de: 'Start'
+      en: 'Home'
+    link: "/"
   - item: Gallery
     name:
       de: 'Gallerie'

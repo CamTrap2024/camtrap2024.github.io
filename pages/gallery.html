@@ -17,7 +17,7 @@ description: Gallery of the workshop
             {% assign sorted = site.data.images.images %}
             {% for file in sorted %}
             <div class="gallery-box">
-                <a href="https://zenodo.org/records/13744279/files/{{ file }}.jpg" target="_blank" title="{{ file }}">
+                <a href="https://zenodo.org/records/13744279/files/{{ file }}.jpg" target="_blank" title="{{ file }}" class="lightbox-image">
                     <img src="https://zenodo.org/records/13744279/files/{{ file }}_prev.jpg" alt="{{ file }}"  class="img-gallery" />
                 </a>
             </div>

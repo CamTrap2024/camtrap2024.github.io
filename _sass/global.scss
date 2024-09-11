@@ -247,6 +247,12 @@ outline: 0;
   padding: 4px;
 }
 
+.image-gallery-header {
+  width: 100%;
+  justify-content: center;
+  padding: 4px;
+}
+
 .gallery-box {
     flex-basis: 25%;
     width: 100%;
@@ -260,4 +266,7 @@ outline: 0;
   object-fit: cover;
   transform: scale(1);
   transition: all 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.05);
+  }
 }
