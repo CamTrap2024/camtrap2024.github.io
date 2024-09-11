@@ -19,6 +19,7 @@ description: Programm of the workshop
                             <th></th>
                             <th>Time</th>
                             <th>Title</th>
+                            <th>Presentations</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -49,8 +50,23 @@ description: Programm of the workshop
                         {% else %}
                             <td>
                         {% endif %}
-                            {{ slot.title }}
+                            {{ slot.title }}                        
                         </td>
+                        {% if slot.presentations != nil %} 
+                        <td>
+                        {% for presentation in slot.presentations %}
+                            <a href="https://zenodo.org/records/13740563/preview/{{presentation}}" target="_blank">
+                            {% if presentation contains '.mp4' %}    
+                                🎥
+                            {% else %} 
+                                📁
+                            {% endif %}  
+                            </a>
+                        {% endfor %}
+                        </td>
+                        {% else %}
+                            <td></td>
+                        {% endif %}
                     </tr>
                     {% endfor %}
                     {% if forloop.last %}
@@ -76,7 +92,7 @@ description: Programm of the workshop
                     <b>Cliodhna Quigley</b> is a cognitive scientist with a focus on data analysis and computational solutions for the study of animal behaviour. Since joining the Fusani lab in Vienna in 2016, she has been involved in developing new approaches for the group to study courtship in birds using videos recorded in laboratory settings and during fieldwork. As well as tracking movements and quantifying behavioural patterns of courting males and choosing females, she also implemented a laboratory system allowing synchronized playback of high-speed video and audio to bird audiences. Her current research interests include the feasability of applying AI models trained on human movement data to data from animals.
                     <br /><br />
                     For additional information please visit her <a href="https://becogbio.univie.ac.at/people/scientific-staff/cliodhna-quigley/"
-                        target="_blank">website at the University of Vienna</a>.
+                        target="_blank">website at the University of Vienna</a>. <br>
                 </p>
             </div>
         </div>
@@ -193,6 +209,8 @@ description: Programm of the workshop
                         <tr>
                             <th>Title</th>
                             <th>Authors</th>
+                            <th>DOI</th>
+                            <th>Presentation</th>
                         </tr>
                     </thead>
                     {% endif %}
@@ -201,7 +219,23 @@ description: Programm of the workshop
                         <tr>
                             <td>{{ paper.title }}</td>
                             <td width="30%">{{ paper.authors }}</td>
-                        </tr>
+                            <td>
+                                {% if paper.doi != nil %} 
+                                    <a href="https://zenodo.org/doi/10.5281/{{paper.doi}}" target="_blank">{{paper.doi}}</a>
+                                {% else %}
+                                    Not desired.
+                                {% endif %}
+                            </td>
+                            <td>
+                                <a href="https://zenodo.org/records/13740563/preview/{{paper.presentation}}" target="_blank">
+                                    {% if paper.presentation contains '.mp4' %}    
+                                        🎥
+                                    {% else %} 
+                                        📁
+                                    {% endif %}  
+                                </a>
+                            </td>
+                        </tr>                        
                         {% endfor %}
                     </tbody>
                     {% if forloop.last %}

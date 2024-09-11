@@ -12,10 +12,14 @@
       title: '<a href="#Robin">Keynote #1: Robin Sandfort</a>'
       duration: 0.75
       category: keynote
+      presentations: 
+        - 'camtrap2024_keynote_1_robin_sandfort.mp4'
     - time: "09:45"
       title: '<a href="#Trapper">Tutorial #1: TRAPPER, an open-source ecosystem for camera trapping projects</a>'
       duration: 0.5
       category: tutorial
+      presentations: 
+        - 'camtrap2024_tutorial_1_piotr_tynecki.mp4'
     - time: "10:15"
       title: "Coffee Break ☕"
       duration: 0.5
@@ -24,6 +28,11 @@
       title: '<a href="#papers1">Paper Session #1: Wildlife and Camera Trapping</a>'
       duration: 1
       category: papers
+      presentations: 
+        - 'camtrap2024_session_1_sead_mustafic.mp4'
+        - 'camtrap2024_session_1_leopold_boess_stephanie_wohlfahrt.mp4'
+        - 'camtrap2024_session_1_wenxin_zhao.mp4'
+        - 'camtrap2024_session_1_miroslav_urosevic.mp4'
     - time: "11:45"
       title: "Lunch Break 🥗"
       duration: 1
@@ -32,10 +41,15 @@
       title: '<a href="#Cliodhna">Keynote #2: Cliodhna Quigley</a>'
       duration: 0.75
       category: keynote
+      presentations: 
+        - 'camtrap2024_keynote_2_cliodhna_quigley.mp4'
     - time: "13:30"
       title: '<a href="#papers2">Paper Session #2: Insect Monitoring</a>'
       duration: 0.5
       category: papers
+      presentations:
+        - 'camtrap2024_session_2_mohammad_sadoun.mp4'        
+        - 'camtrap2024_session_2_chirag_padubidri.mp4'
     - time: "14:00"
       title: "Coffee Break ☕"
       duration: 0.5
@@ -44,6 +58,8 @@
       title: '<a href="#Swarovski">Tutorial #2: Swarovski Optik, smart binoculars</a>'
       duration: 0.5
       category: tutorial
+      presentations: 
+        - 'camtrap2024_tutorial_2_danielle_mckenney.pdf'
     - time: "15:00"
       title: '<s><a href="#Smartmulticopters">Tutorial #3: Smartmulticopters, development and production of UAV platform</a></s> (Unfortunately cancelled due to illness)'
       duration: 0.0
@@ -67,10 +83,15 @@
       title: '<a href="#Stefano">Keynote #3 (Virtual): Stefano Mintchev</a>'
       category: keynote
       duration: 0.75
+      presentations: 
+        - 'camtrap2024_keynote_3_stefano_mintchev.mp4'
     - time: "09:45"
       title: '<a href="#papers3">Paper Session #3: Drones</a>'
       duration: .5
       category: papers
+      presentations:
+        - 'camtrap2024_session_3_oliver_doll.mp4'
+        - 'camtrap2024_session_3_harald_lampesberger.mp4'
     - time: "10:15"
       title: "Coffee Break ☕"
       category: break
@@ -79,10 +100,15 @@
       title: '<a href="#Claudia">Keynote #4: Claudia Probst &amp; Georg Schneider</a>'
       duration: 0.75
       category: keynote
+      presentations: 
+        - 'camtrap2024_keynote_4_claudia_probst_georg_schneider.mp4'
     - time: "11:30"
       title: '<a href="#papers4">Paper Session #4: Digital Nose</a>' # Digital Nose
       duration: 0.5
       category: papers
+      presentations:
+        - 'camtrap2024_session_4_eva_huber_sabrina_kroehnert.mp4'
+        - 'camtrap2024_session_4_leo_biljesko.mp4'
     - time: "12:00"
       title: "Closing Words &amp; Farewell"
       duration: 0.25

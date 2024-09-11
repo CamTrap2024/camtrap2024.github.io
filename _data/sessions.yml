@@ -4,40 +4,58 @@
     - id: 2
       title: "Improving Wildlife Management with AI: Species Detection and Classification from Camera Trap Data"
       authors: "Sead Mustafic, Dominik Dachs, Rainer Prüller, Florian Schöggl, Roland Perko*"
+      doi: zenodo.13740673
+      presentation: 'camtrap2024_session_1_sead_mustafic.mp4'
     - id: 8
       title: "Utilizing digital elevation models for camera-trap distance estimation"
-      authors: "Leopold Böss*, Stephanie Wohlfahrt, David C. Schedl"
+      authors: "Leopold Böss*, Stephanie Wohlfahrt*, David C. Schedl"
+      doi: zenodo.13740708
+      presentation: 'camtrap2024_session_1_leopold_boess_stephanie_wohlfahrt.mp4'
     - id: 9
       title: "Beyond Humanity: Leveraging Pre-trained Human Video Classification Models for Data-Efficient Cross-Species Wildlife Animal Action Recognition"
       authors: "Wenxin Zhao*☁"
+      doi: zenodo.13740722
+      presentation: 'camtrap2024_session_1_wenxin_zhao.mp4'
     - id: 11
       title: "How to improve the estimation of red deer (Cervus elaphus) population density in Serbia"
       authors: "Miroslav Urosevic*, Bojan Tubic, Dejan Beukovic, Samantha Wisely"
+      doi: zenodo.13740730
+      presentation: 'camtrap2024_session_1_miroslav_urosevic.mp4'
 - session: "Session #2: Insect Monitoring"
   id: papers2
   papers:
     - id: 3
       title: "High resolution environmental monitoring of pollinator insects through macro camera trapping and AI"
       authors: "Mohammad Sa'Doun*☁, Daniel Dalton, Vanessa Berger, Gernot Paulus, Anders Karl-Heinrich, Ilja Svetnik, Johanna Schulz, Peter Unglaub"
-
+      doi: zenodo.13740744
+      presentation: 'camtrap2024_session_2_mohammad_sadoun.mp4'
     - id: 12
       title: "TaxaNet: Harnessing a Hierarchical Loss Function for Insect Classification Using Deep Learning"
       authors: "Chirag Padubidri*☁, Heleen Visserman, Andreas Lanitis"
+      doi: zenodo.13740768
+      presentation: 'camtrap2024_session_2_chirag_padubidri.mp4'
 - session: "Session #3: Drones"
   id: papers3
   papers:
     - id: 6
       title: "AUTH-Sheep: An Annotated Video Dataset for Detection and Tracking of Sheep in UAV imagery"
-      authors: "Oliver Doll*, Alexander Loos"
+      authors: "Oliver Doll*☁, Alexander Loos"
+      presentation: 'camtrap2024_session_3_oliver_doll.mp4'
     - id: 7
       title: "Optical Geolocalization in a Global Coordinate System"
       authors: "Harald Lampesberger*, Eckehard Hermann, Markus Zeilinger"
+      doi: zenodo.13740788
+      presentation: 'camtrap2024_session_3_harald_lampesberger.mp4'
 - session: "Session #4: Digital Nose"
   id: papers4
   papers:
     - id: 4
       title: "Characterization of volatile organic compounds (VOCs) emitted by European spruce trees under stress (Digi-Nose Part 1)"
       authors: "Eva Olivia Huber*, Sabrina Kröhnert, Georg Roman Schneider, Claudia Probst"
+      doi: zenodo.13740800
+      presentation: 'camtrap2024_session_4_eva_huber_sabrina_kroehnert.mp4'
     - id: 5
       title: "Enhancing accuracy and efficiency of a digital nose system with sensor technology for early detection of changes in the forest (Digi-Nose Part 2)"
       authors: "Leo Biljesko*, Georg Roman Schneider, Claudia Probst"
+      doi: zenodo.13740813
+      presentation: 'camtrap2024_session_4_leo_biljesko.mp4'
