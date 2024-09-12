@@ -210,7 +210,7 @@ description: Programm of the workshop
                             <th>Title</th>
                             <th>Authors</th>
                             <th>DOI</th>
-                            <th style="min-width:110px">Presentation</th>
+                            <th style="min-width:110px; text-align: center">Presentation</th>
                         </tr>
                     </thead>
                     {% endif %}
@@ -226,7 +226,7 @@ description: Programm of the workshop
                                     Not desired.
                                 {% endif %}
                             </td>
-                            <td style="min-width:110px;">
+                            <td style="min-width:110px; text-align: center">
                                 <a href="https://zenodo.org/records/13740563/preview/{{paper.presentation}}" target="_blank">
                                     {% if paper.presentation contains '.mp4' %}    
                                         🎥
