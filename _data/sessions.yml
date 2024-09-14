@@ -42,7 +42,7 @@
       authors: "Oliver Doll*☁, Alexander Loos"
       presentation: 'camtrap2024_session_3_oliver_doll.mp4'
     - id: 7
-      title: "Optical Geolocalization in a Global Coordinate System"
+      title: "Object Geolocalization Using Consumer-Grade Devices: Algorithms and Applications"
       authors: "Harald Lampesberger*, Eckehard Hermann, Markus Zeilinger"
       doi: zenodo.13740788
       presentation: 'camtrap2024_session_3_harald_lampesberger.mp4'
