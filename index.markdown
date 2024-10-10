@@ -14,8 +14,8 @@ description: Homepage of the Camera Traps, AI, and Ecology Workshop 2024
                     Join us for the Camera Traps, AI, and Ecology workshop, part of an international series focusing on wildlife monitoring using AI and camera traps. This workshop, held both live and online, unites camera trap data producers, scientific practitioners, and AI providers to foster collaboration, bridge wildlife data with AI, and initiate interdisciplinary projects. 
                 </p>
                 <p class="bold">
-                    We are excited to announce that the workshop schedule has been finalized! We invite you to take a look and plan your participation accordingly. <br/>
-                    <a href="{{ site.baseurl }}/program" class="btn btn-primary">See the program!</a>
+                    We are excited to announce that the workshop proceedings have been published! <br>
+                    <a href="http://ceur-ws.org/Vol-3786" class="btn btn-primary">See the proceedings!</a>
                 </p>
                 <p>
                 Previous workshops were conducted in 2022 and 2023. Past content can be found at:

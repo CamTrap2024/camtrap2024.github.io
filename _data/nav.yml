@@ -4,6 +4,11 @@ MainNav:
       de: 'Start'
       en: 'Home'
     link: "/"
+  - item: Proceedings
+    name:
+      de: "Proceedings"
+      en: "Proceedings"
+    link: "http://ceur-ws.org/Vol-3786"
   - item: Gallery
     name:
       de: 'Gallerie'
