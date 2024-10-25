@@ -40,6 +40,7 @@
     - id: 6
       title: "AUTH-Sheep: An Annotated Video Dataset for Detection and Tracking of Sheep in UAV imagery"
       authors: "Oliver Doll*☁, Alexander Loos"
+      doi: zenodo.13843376
       presentation: 'camtrap2024_session_3_oliver_doll.mp4'
     - id: 7
       title: "Object Geolocalization Using Consumer-Grade Devices: Algorithms and Applications"
