@@ -18,11 +18,7 @@ description: Homepage of the Camera Traps, AI, and Ecology Workshop 2024
                     <a href="http://ceur-ws.org/Vol-3786" class="btn btn-primary">See the proceedings!</a>
                 </p>
                 <p>
-                Previous workshops were conducted in 2022 and 2023. Past content can be found at:
-                <ul>
-                    <li><a href="https://inf-cv.uni-jena.de/camtrap-ws/">2023 Workshop at the University Jena</a> </li>
-                    <li>the <a href="https://camtrapai.github.io/indexold.html">Archive of the 1st and 2nd workshops</a></li>
-                </ul>
+                More information about the workshop series can be found <a href="https://camtrapai.github.io/">here</a>. Past workshops can be found <a href="https://camtrapai.github.io/workshops-overview.html">here</a>.
                 </p>
                 <!--<p>
                     Stay updated on the 2024 workshop details on this site. For inquiries, feel free to <a href="#contact">contact us</a>.
